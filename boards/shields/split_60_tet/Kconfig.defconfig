@@ -1,0 +1,14 @@
+
+if SHIELD_SPLIT_60_TET_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "split_60_tet"
+
+endif
+
+if SHIELD_SPLIT_60_TET_LEFT || SHIELD_SPLIT_60_TET_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

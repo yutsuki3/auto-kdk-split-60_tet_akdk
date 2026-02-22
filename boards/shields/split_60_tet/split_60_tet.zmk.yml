@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: split_60_tet
+name: split_60_tet
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - split_60_tet_left
+  - split_60_tet_right

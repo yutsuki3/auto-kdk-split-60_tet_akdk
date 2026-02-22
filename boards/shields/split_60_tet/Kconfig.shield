@@ -1,0 +1,4 @@
+config SHIELD_SPLIT_60_TET_LEFT
+    def_bool $(shields_list_contains,split_60_tet_left)
+config SHIELD_SPLIT_60_TET_RIGHT
+    def_bool $(shields_list_contains,split_60_tet_right)
